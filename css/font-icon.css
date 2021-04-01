@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'icons';
+  src:  url('../fonts-icon/icons.eot?5mylw5');
+  src:  url('../fonts-icon/icons.eot?5mylw5#iefix') format('embedded-opentype'),
+    url('../fonts-icon/icons.ttf?5mylw5') format('truetype'),
+    url('../fonts-icon/icons.woff?5mylw5') format('woff'),
+    url('../fonts-icon/icons.svg?5mylw5#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"]::before,
+[class*=" icon-"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-mail::before {
+  content: "\e900";
+  color: #87B0EE;
+  font-size: 16px;
+  padding-right: 10px;
+  position: relative;
+  left: 3px;
+  top: 2px;
+}
+.icon-call:before {
+  content: "\e901";
+  color: #86AFEF;
+  font-size: 16px;
+  padding-right: 10px;
+}
+
+
+.icon-telegram:before {
+  content: "\e902";
+  font-size: 19px;
+  color: #fff;
+  position: relative;
+  top: 2px;
+}
+.icon-viber:before {
+  content: "\e903";
+  font-size: 19px;
+  color: #fff;
+  position: relative;
+  top: 2px;
+}
+.icon-WhatsApp::before {
+  content: "\e904";
+  color: #fff;
+  font-size: 19px;
+  position: relative;
+  top: 2px;
+}
